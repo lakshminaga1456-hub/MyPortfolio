@@ -611,3 +611,24 @@ a {
         text-align: center;
     }
 }
+
+.cert-category {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.35rem;
+    color: #a78bfa;
+    margin: 40px 0 20px;
+}
+
+.cert-card a {
+    display: inline-block;
+    margin-top: 16px;
+    color: #67e8f9;
+    font-size: 0.88rem;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.cert-card a:hover {
+    color: #a78bfa;
+    transform: translateX(4px);
+}
